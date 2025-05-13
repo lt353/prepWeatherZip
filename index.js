@@ -13,7 +13,7 @@ app.get("/", function (req, res) {
 
 //invoked after hitting go in the html form
 app.post("/", function (req, res) {
-	// takes in the cityId from the html form, display in // console. Takes in as string, ex. for cityId
+	// takes in the cityId from the html form, display in console. Takes in as string, ex. for cityId 2172797
 	var cityId = String(req.body.cityId);
 	console.log(req.body.cityId);
 
